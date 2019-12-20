@@ -11,7 +11,7 @@ include("auth.php");
 </head>
 <body>
 <div class="form">
-<p>Welcome <?php echo $_SESSION['username']; ?>!</p>
+<p>Welcome <font size="3" color="red"><?php echo $_SESSION['username']; ?>! </font></p>
 <div class="container nav_container mt-5">
 <div class="col-sm-12 col-md-12 mauto">
 <svg width="100%" height="100%" viewBox="0 0 750 500" fill="none" xmlns="http://www.w3.org/2000/svg">
